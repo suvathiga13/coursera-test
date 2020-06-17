@@ -1,0 +1,217 @@
+
+/*body*/
+body{
+font-family: 'Oxygen', sans-serif;      
+background-image:url("https://staging.lapstonebarn.co.uk/app/uploads/2017/12/lapstone-main-course-768x512.jpg");
+background-color: black;
+background-repeat:no-repeat;
+
+}
+/*base styles*/
+
+@media(min-width:1200px){
+	body{
+		background-size:100% !important;
+		
+	    }
+	.nav-item{
+		display:none;
+	     }
+	#header-nav{
+		height:100px;
+         }
+   	h6{
+    	margin-left:-18px;
+      }
+      #section2 table{
+        height:749px;
+      }
+       #section3 table{
+        height:749px;
+      }
+      .back2top{
+      	display:none;
+      }
+      
+  
+  
+      
+    
+     
+}
+@media(min-width:992px) and (max-width:1199px){
+	body{
+	background-size:100% !important;
+	}
+ .nav-item{
+		display:none;
+	}
+	#header-nav{
+	height:100px;
+    }
+    h6{
+    padding-right:21px;
+     }
+     table{
+     	margin-left:17px !important;
+    
+     }
+     section{
+     	padding:0px;
+     }
+     #section2{
+          width:1%;
+     }
+     #section3{
+          width:1%;
+     }
+     .back2top{
+      	display:none;
+      }
+      
+
+
+
+}
+@media(min-width:768px) and (max-width:991px){
+	body{
+	background-size:115%!important;
+	}
+    h6{
+	padding-left:4px;
+     }  
+
+      table{
+     	margin-left:35px;
+
+     }
+     #section3{
+     	padding-left:201px;
+     	margin-right:20px;
+     	padding-right:196px;
+
+     }
+     #suhead{
+        margin-left:-6px;
+     }
+      .sec3 table{
+      margin-bottom:23px;
+      margin-right: 42px;
+      }
+      
+
+}
+@media(max-width:767px){
+	body{
+		background-size:145% !important;
+
+	}
+	table{
+		margin-left:127px !important;
+	}
+
+
+}
+/*header*/
+#header-nav{
+      border-radius:0;
+      border:0;
+      background-color:#343a40b5 !important;
+      border-top:5px solid black;
+      border-bottom:5px solid black;
+      padding:0px;
+}
+.navbar-brand{
+	font-size:30px;
+	color:white !important;
+	font-weight:bold;
+	font-family: 'Oxygen', sans-serif;
+	float:left;
+	position:absolute;
+	left:20px;
+	top:14px;
+}
+.navbar-nav{
+	padding:0px 0px 0px;
+
+}
+
+.aclass:hover,.aclass:active{
+	text-decoration:none;
+background-color:grey;
+}
+#coll{
+	padding:0px 0px 0px;
+}
+.nav-item:hover{
+	background-color:black !important;
+	color:white !important;
+}
+
+/*toggler button*/
+button{
+	border-color:black !important;
+	border:2px solid black !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right:20px;
+}
+
+.nav-item{
+	color:black !important;
+	text-align:center;
+}
+div a[aria-expanded="true"]{
+	background-color:white !important;
+	opacity:0.6;
+	position:relative;
+	
+	background-size:100%;
+	width:100%;
+}
+/*main content*/
+h3{
+	color:white;
+	text-align:center;
+	margin-top:-4px;
+}
+h6{
+	color:white;
+	margin-top:-6px;
+	text-align:center;
+	position:relative;
+
+}
+
+section{
+	color:white;
+	
+	font-weight:normal;
+
+}
+table,tr,td{
+	border:2px solid white;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:38px;
+	margin-bottom:38px;
+	
+}
+div{
+	color: white;
+    padding: 10px;
+}
+.back{
+	background-color: #343a40b5;;
+}
+marquee{
+	color:white !important;
+}
+.back2top{
+	color:white;
+	
+
+}
+
